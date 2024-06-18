@@ -33,6 +33,7 @@ describe("If statement", function () {
         case "*":
           return (result += value1 * value2);
       }
+      return result;
     }
 
     console.info(mathCalc("*", 2, 3));
